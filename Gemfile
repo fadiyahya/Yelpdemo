@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-ruby 'ruby 2.2.0p0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use sqlite3 as the database for Active Record
@@ -32,7 +31,7 @@ gem 'rails_12factor', group: :production
 # Use Unicorn as the app server
 # gem 'unicorn'
 
-# Use Capistrano for deployment
+# Use Capistrano for deployGemfile.lockment
 # gem 'capistrano-rails', group: :development
 
 group :development, :test do
@@ -45,4 +44,7 @@ group :development, :test do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
+
+ruby 'ruby 2.2.0'
+
 
